@@ -1,0 +1,39 @@
+.infoform {
+    display: flex;
+    gap: 0.7rem;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.25rem;
+    outline: none;
+}
+
+button {
+    margin: 2rem 10rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: rgb(119, 119, 252);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+.errorMsg {
+    max-width: 100%;
+    font-size: 0.75rem;
+    color: rgb(248, 106, 106);
+}
+
+.footerForm {
+    margin: 0 auto;
+}
+
+span {
+    color: rgb(119, 119, 252);
+    cursor: pointer;
+}
